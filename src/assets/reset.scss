@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+p {
+    font-size: 0.875rem;
+}
+
+@-moz-document url-prefix() {p {font-size: 14px;}}
+
+
+ul[class],
+ol[class] {
+  list-style: none;
+}

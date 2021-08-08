@@ -18,8 +18,8 @@
     "sass-loader": "^8.0.2"
   },
   "browserslist": [
-    "> 1%",
-    "last 2 versions",
+    "> 2%",
+    "last 0.25 years",
     "not dead"
   ]
 }
