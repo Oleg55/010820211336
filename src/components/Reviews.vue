@@ -94,7 +94,7 @@
         }),
         methods: {
             addWallPost() {
-                if(this.wallPost.text) {
+                if(this.wallPost.text.trim()) {
                     this.wallCount++
                     this.wallPosts.unshift({
                         id: this.wallCount,
